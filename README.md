@@ -137,7 +137,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/MAleemH/Math-Magicians.git
+  git clone https://github.com/MAleemH/React-Todo-App.git
 ```
 
 ### Install
