@@ -46,6 +46,11 @@ body {
   font-weight: 600;
   margin-right: 10px;
 }
+.input-submit svg {
+  color: #5e5e5e;
+  font-size: 20px;
+  margin-top: 2px;
+}
 .input-text,
 .input-submit {
   height: 45px;
@@ -100,4 +105,62 @@ body {
   padding: 10px;
   border: 1px solid #dfdfdf;
   outline: none;
+}
+
+.list-item-buttons svg {
+  color: #5e5e5e;
+  font-size: 16px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* Active route */
+.active {
+  color: #8a4baf;
+}
+
+/*==========================
+Sidebar navigation
+========================*/
+.navbar {
+  position: relative;
+}
+button {
+  cursor: pointer;
+  background: transparent;;
+  border: none;
+  font-size: 20px;
+}
+.navbar .toggle {
+  position: fixed;
+  left: 30px;
+  top: 40px;
+  cursor: pointer;
+  background: transparent;;
+  border: none;
+}
+.menu-nav {
+  list-style: none;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+  font-size: 18px;
+  box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
+  transform: translateX(-100px);
+  transition: transform ease-in-out 0.2s;
+  /* transition: width ease 0.2s; */
+}
+.menu-nav.show-menu {
+  width: 100%;
+  transform: translateX(0px);
+}
+.menu-nav li a, .menu-nav li span {
+  display: block;
+  padding: 1rem;
 }

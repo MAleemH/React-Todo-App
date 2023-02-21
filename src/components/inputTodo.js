@@ -1,5 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
+import { FaPlusCircle } from 'react-icons/fa';
 
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState('');
@@ -24,7 +26,9 @@ const InputTodo = ({ addTodoItem }) => {
     <div>
       <form onSubmit={handleSubmit} className="form-container">
         <input className="input-text" type="text" placeholder="Add Todo..." value={title} onChange={handleChange} />
-        <button type="button" className="input-submit">Submit</button>
+        <button type="submit" className="input-submit">
+          <FaPlusCircle />
+        </button>
       </form>
       <span className="submit-warning">{message}</span>
     </div>
