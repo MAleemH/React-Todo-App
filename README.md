@@ -101,9 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Note: Link will be provided when whole project is done.
-
-- [Live Demo Link](#)
+- [Live Demo Link](https://maleemh.github.io/React-Todo-App/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,9 +203,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Home Page**
-- [ ] **Calcutlator Page**
-- [ ] **Quote Page**
+- [ ] **Login**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
